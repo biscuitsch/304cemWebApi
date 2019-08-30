@@ -1,5 +1,5 @@
 const cmodel = require('../db/gamedb.js')
-
+//controller
 const Games = (req, res) => {
   cmodel.Game.find({}, (err, games) => {
     if (err) console.log(err)

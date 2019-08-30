@@ -83,3 +83,4 @@ const searchEmail = (req, res) => {
 }
 
 module.exports = { Login, Register, Users, searchEmail }
+

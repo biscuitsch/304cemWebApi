@@ -15,3 +15,6 @@ router.get('/searchTool/:developTool', Game.searchTool)
 router.get('/searchLanguage/:language', Game.searchLanguage)
 
 module.exports = router
+
+
+//router
